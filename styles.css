@@ -1,0 +1,51 @@
+html, body {
+  margin:0; padding:0;
+  font-family:Arial, sans-serif;
+  background:#f0f0f0;
+  color:#222;
+}
+header {
+  background:#004b8d;
+  color:#fff;
+  padding:1rem;
+  text-align:center;
+}
+#segments-container {
+  display:grid;
+  gap:1rem;
+  padding:1rem;
+  grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));
+}
+.card {
+  background:#fff;
+  border-radius:8px;
+  box-shadow:0 2px 6px rgba(0,0,0,0.1);
+  overflow:hidden;
+}
+.card img { width:100%; height:auto; display:block; }
+.card-content { padding:0.75rem; }
+.card-content h2 { margin:0 0 0.5rem; font-size:1.1rem; }
+.card-content p.quote { font-style:italic; margin:0.5rem 0; }
+.card-content p.significance { margin:0.5rem 0; }
+.card-footer {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:0.5rem 0.75rem;
+  background:#fafafa;
+  font-size:0.9rem;
+}
+.badge {
+  padding:0.2rem 0.6rem;
+  border-radius:4px;
+  color:#fff;
+  font-size:0.8rem;
+}
+.badge.Technology { background:#0070f3; }
+.badge.Data { background:#7928ca; }
+.badge.Innovation { background:#f5a623; }
+.badge.Creative\\ Tech { background:#db1962; }
+.badge.Process { background:#00875f; }
+.badge.Technical { background:#f0ab00; }
+.badge.Vision { background:#e00; }
+.badge.Connections { background:#0a9396; }
